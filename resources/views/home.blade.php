@@ -1,23 +1,18 @@
 @extends('layouts.app')
 
 @section('content')
-    <section class="home-banner-area" style="background-image: url({{ asset('images/learning.jpg') }})">
+    <section class="home-banner-area" style="background-image: url({{ asset('images/learning.jpg') }})"> 
+    <!-- Change Image -->
         <div class="container-lg">
             <div class="row">
                 <div class="col">
                     <div class="home-banner-wrap">
-                        <h2>Best place for learning</h2>
-                        <p>Learn from any topic, choose from category</p>
-                        <form class="" action=""
-                              method="post">
-                            <div class="input-group">
-                                <input type="text" class="form-control" name="search_string"
-                                       placeholder="what do you want to learn?">
-                                <div class="input-group-append">
-                                    <button class="btn" type="submit"><i class="fas fa-search"></i></button>
-                                </div>
-                            </div>
-                        </form>
+                        <h2>Entry Level Computer Science Courses</h2>
+                        <p>Available Courses:
+                            <li><a href="{{url ('AlgoProg')}}">Algorithm and Programming Basics</a></li>
+                            <li><a href="{{url ('xxx')}}">XXX</a></li>
+                            <li><a href="{{url ('yyy')}}">YYY</a></li>
+                        </p>
                     </div>
                 </div>
             </div>

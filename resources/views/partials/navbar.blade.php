@@ -9,30 +9,12 @@
                         <li><a class="mobile-search-trigger" href="#mobile-search">Search<span></span></a></li>
                     </ul>
 
-                    <a class="navbar-brand" href="/">
-                        {{--<img src="" alt="" height="30">--}}
-                        Udemy Clone
-                    </a>
-
                     @include('partials.menu')
 
-                    <form class="inline-form" action=""
-                          method="post" style="width: 100%;">
-                        <div class="input-group search-box mobile-search">
-                            <input type="text" name='search_string' class="form-control"
-                                   placeholder="Search for courses">
-                            <div class="input-group-append">
-                                <button class="btn" type="submit"><i class="fas fa-search"></i></button>
-                            </div>
-                        </div>
-                    </form>
+                    
 
                     <div class="wishlist-box menu-icon-box" id="wishlist_items">
                         {{--Wishlist will be here--}}
-                    </div>
-
-                    <div class="cart-box menu-icon-box" id="cart_items">
-                        @include('partials.cart')
                     </div>
 
                     @auth
@@ -95,20 +77,12 @@
                         </div>
 
                     @endauth
-                    @guest
-                        <span class="signin-box-move-desktop-helper"></span>
-                        <div class="sign-in-box btn-group">
 
-                            <button type="button" class="btn btn-sign-in" data-toggle="modal"
-                                    data-target="#signInModal">Login
-                            </button>
-
-                            <button type="button" class="btn btn-sign-up" data-toggle="modal"
-                                    data-target="#signUpModal">Sign up
-                            </button>
-
-                        </div>
-                    @endguest
+                    <a class="topnav" href="https://fonts.googleapis.com/css?family=Audiowide">
+                        {{--<img src="" alt="" height="30">--}}
+                        <h1 style="color:black; text-align:center; float: none; position: absolute; left: 50%;
+                         transform: translate(-50%, -50%); font-family: 'Audiowide', sans-serif;"> AlgoSphere </h1>
+                    </a>
 
                 </nav>
             </div>
