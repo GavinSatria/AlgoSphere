@@ -1033,6 +1033,13 @@ input:focus {
     text-shadow: 0 2px 4px rgba(41, 48, 59, .55);
 }
 
+.home-banner-wrap h5 {
+    color: #fff;
+    line-height: 34px;
+    margin-bottom: 30px;
+    text-shadow: 0 2px 4px rgba(41, 48, 59, .55);
+}
+
 .home-banner-wrap p {
     font-size: 18px;
     line-height: 34px;
