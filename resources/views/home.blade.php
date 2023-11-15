@@ -35,8 +35,8 @@
                     <div class="home-fact-box mr-md-auto ml-auto mr-auto">
                         <i class="fa fa-check float-left"></i>
                         <div class="text-box">
-                            <h4>Expert Instruction</h4>
-                            <p>Find The Right Course For You</p>
+                            <h4>Accessible to New Students</h4>
+                            <p>Our Courses Are Extremely Beginner Friendly</p>
                         </div>
                     </div>
                 </div>
@@ -45,7 +45,7 @@
                     <div class="home-fact-box mr-md-auto ml-auto mr-auto">
                         <i class="fa fa-clock float-left"></i>
                         <div class="text-box">
-                            <h4>Lifetime Access</h4>
+                            <h4>Pay-per-Course</h4>
                             <p>Learn On Your Schedule</p>
                         </div>
                     </div>
