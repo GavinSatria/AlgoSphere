@@ -15,6 +15,21 @@ class HomeController extends Controller
         return view('home', compact('courses'));
     }
 
+    public function terms()
+    {
+        return view('terms');
+    }
+
+    public function about()
+    {
+        return view('about');
+    }
+
+    public function social()
+    {
+        return view('social');
+    }
+
     // courses by category
     public function courses_by_category(Category $category)
     {

@@ -78,7 +78,7 @@
 
                     @endauth
 
-                    <a class="topnav" href="https://fonts.googleapis.com/css?family=Audiowide">
+                    <a class="topnav" href="{{url ('/') }}">
                         {{--<img src="" alt="" height="30">--}}
                         <h1 style="color:black; text-align:center; float: none; position: absolute; left: 50%;
                          transform: translate(-50%, -50%); font-family: 'Audiowide', sans-serif;"> AlgoSphere </h1>

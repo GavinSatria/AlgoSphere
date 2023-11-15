@@ -5,15 +5,15 @@
                 <ul class="nav justify-content-md-end footer-menu">
                     <li class="nav-item">
                         <a class="nav-link"
-                           href="">About</a>
+                           href="{{url ('about')}}">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link"
-                           href="">Privacy Policy</a>
+                           href="{{url ('social')}}">Our Socials</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link"
-                           href="">Terms & Condition</a>
+                           href="{{url ('terms')}}">Terms & Condition</a>
                     </li>
                 </ul>
             </div>

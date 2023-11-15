@@ -2,7 +2,6 @@
 
 @section('content')
     <section class="home-banner-area" style="background-image: url({{ asset('images/learning.jpg') }})"> 
-    <!-- Change Image -->
         <div class="container-lg">
             <div class="row">
                 <div class="col">
@@ -11,7 +10,6 @@
                         <p>Available Courses:
                             <li><a href="{{url ('AlgoProg')}}">Algorithm and Programming Basics</a></li>
                             <li><a href="{{url ('xxx')}}">XXX</a></li>
-                            <li><a href="{{url ('yyy')}}">YYY</a></li>
                         </p>
                     </div>
                 </div>
