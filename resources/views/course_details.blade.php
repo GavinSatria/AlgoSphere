@@ -53,7 +53,7 @@
                     <div class="what-you-get-box">
                         <div class="what-you-get-title">What i will learn?</div>
                         <ul class="what-you-get__items">
-                            <li>{{ $course->outcomes }}</li>
+                            {{ $course->outcomes }}
                         </ul>
                     </div>
                     <br>
@@ -83,10 +83,7 @@
                                     </div>
                                     <div class="float-right">
                                         <span class="total-lectures">
-                                            {{ $course->lessons->count() }} lessons
-                                        </span>
-                                        <span class="total-time">
-                                            12: 30 minute
+                                            10 lessons
                                         </span>
                                     </div>
                                 </div>
@@ -111,7 +108,7 @@
                         <div class="requirements-title">Requirements</div>
                         <div class="requirements-content">
                             <ul class="requirements__list">
-                                <li>{{ $course->requirements }}</li>
+                                {{ $course->requirements }}
                             </ul>
                         </div>
                     </div>
@@ -129,10 +126,9 @@
 
 
                     <div class="compare-box view-more-parent">
-                        <div class="view-more" onclick="viewMore(this)">+ View More</div>
                         <div class="compare-title">Other Related Courses</div>
                         <div class="compare-courses-wrap">
-
+                            UI/UX Design
                         </div>
                     </div>
 
@@ -278,15 +274,15 @@
                     <div class="course-sidebar natural">
                         <div class="preview-video-box">
                             <a data-toggle="modal" data-target="#CoursePreviewModal">
-                                <img src="{{ asset('images/learning.jpg') }}" alt="" class="img-fluid">
-                                <span class="preview-text">Preview this course</span>
-                                <span class="play-btn"></span>
+                                <img src="{{ asset('images/algoprog.jpg') }}" alt="" class="img-fluid">
+                                <!-- <span class="preview-text">Preview this course</span>
+                                <span class="play-btn"></span> -->
                             </a>
                         </div>
                         <div class="course-sidebar-text-box">
                             <div class="price">
                                 <span class="current-price">
-                                    $<span class="current-price">{{ $course->price }}</span></span>
+                                    Rp <span class="current-price">{{ $course->price }}</span></span>
                                 <input type="hidden" id="total_price_of_checking_out" value="{{ $course->price }}">
                             </div>
 

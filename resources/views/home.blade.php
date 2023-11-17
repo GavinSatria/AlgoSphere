@@ -23,7 +23,7 @@
                     <div class="home-fact-box mr-md-auto ml-auto mr-auto">
                         <i class="fas fa-bullseye float-left"></i>
                         <div class="text-box">
-                            <h4>{{ $courses->count() }} online_courses</h4>
+                            <h4>{{ $courses->count() }} Available Courses</h4>
                             <p>Explore A Variety Of Fresh Topics</p>
                         </div>
                     </div>
@@ -56,7 +56,7 @@
         <div class="container-lg">
             <div class="row">
                 <div class="col">
-                    <h2 class="course-carousel-title">Top Courses</h2>
+                    <h2 class="course-carousel-title">Available Courses</h2>
                     <div class="course-carousel">
                         @foreach (\App\Course::inRandomOrder()->get() as $top_course)
                             <div class="course-box-wrap">
@@ -78,7 +78,7 @@
                                                 <span class="d-inline-block average-rating">5</span>
                                             </div>
                                             <p class="price text-right">
-                                                ${{ $top_course->price }}
+                                                Rp {{ $top_course->price }}
                                             </p>
                                         </div>
                                     </div>
@@ -146,7 +146,7 @@
         </div>
     </section>
 
-    <section class="course-carousel-area">
+    <!-- <section class="course-carousel-area">
         <div class="container-lg">
             <div class="row">
                 <div class="col">
@@ -184,5 +184,5 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 @endsection

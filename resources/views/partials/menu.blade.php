@@ -25,6 +25,12 @@
                         </a>
                     @endforeach
                 </li>
+                <li>
+                    <a href="{{ url ('courses/1') }}">
+                        <span class="icon"><i class="fa fa-caret-right"></i></span>
+                        <span>Algorithm & Programming</span>
+                    </a>
+                </li>
             </ul>
         </li>
 

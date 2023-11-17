@@ -23,7 +23,7 @@
                          transform: translate(-50%, -50%); font-family: 'Audiowide', sans-serif;"> AlgoSphere </h1>
                     </a>
 
-                    @guest
+                    <!-- @guest
                         <span class="signin-box-move-desktop-helper"></span>
                         <div class="sign-in-box btn-group">
 
@@ -36,7 +36,7 @@
                             </button>
 
                         </div>
-                    @endguest
+                    @endguest -->
 
                     @auth
                         <div class="user-box menu-icon-box">
