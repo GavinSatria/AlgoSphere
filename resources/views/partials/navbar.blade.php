@@ -17,6 +17,27 @@
                         {{--Wishlist will be here--}}
                     </div>
 
+                    <a class="topnav" href="{{url ('/') }}">
+                        {{--<img src="" alt="" height="30">--}}
+                        <h1 style="color:black; text-align:center; float: none; position: absolute; left: 50%;
+                         transform: translate(-50%, -50%); font-family: 'Audiowide', sans-serif;"> AlgoSphere </h1>
+                    </a>
+
+                    @guest
+                        <span class="signin-box-move-desktop-helper"></span>
+                        <div class="sign-in-box btn-group">
+
+                            <button type="button" class="btn btn-sign-in" data-toggle="modal"
+                                    data-target="#signInModal">Login
+                            </button>
+
+                            <button type="button" class="btn btn-sign-up" data-toggle="modal"
+                                    data-target="#signUpModal">Sign up
+                            </button>
+
+                        </div>
+                    @endguest
+
                     @auth
                         <div class="user-box menu-icon-box">
                             <div class="icon">
@@ -77,12 +98,6 @@
                         </div>
 
                     @endauth
-
-                    <a class="topnav" href="{{url ('/') }}">
-                        {{--<img src="" alt="" height="30">--}}
-                        <h1 style="color:black; text-align:center; float: none; position: absolute; left: 50%;
-                         transform: translate(-50%, -50%); font-family: 'Audiowide', sans-serif;"> AlgoSphere </h1>
-                    </a>
 
                 </nav>
             </div>

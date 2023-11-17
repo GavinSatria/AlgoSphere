@@ -19,15 +19,10 @@ class CreateCoursesTable extends Migration
             $table->text('short_description');
             $table->text('description');
             $table->text('outcomes');
-            $table->text('section');
             $table->text('requirements');
-            $table->string('language');
             $table->double('price');
-            $table->string('level', 50);
             $table->string('thumbnail')->nullable();
             $table->string('video_url')->nullable();
-            $table->boolean('visibility');
-            $table->unsignedInteger('category_id');
             $table->timestamps();
         });
     }

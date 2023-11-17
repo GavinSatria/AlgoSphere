@@ -11,6 +11,9 @@ Auth::routes();
 
 Route::get('/auth/check', 'HomeController@checkAuth');
 
+// course
+Route::get('/insert', 'CourseController@insert')->name('insert');
+
 //Route::get('/home', 'HomeController@index')->name('home');
 Route::get('category/{category}/courses', 'HomeController@courses_by_category')->name('courses_by_category');
 Route::get('courses/{course}', 'HomeController@course_detail')->name('course_detail');
