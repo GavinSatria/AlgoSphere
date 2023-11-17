@@ -8,7 +8,7 @@
                     <div class="home-banner-wrap">
                         <h2>Entry Level Computer Science Courses</h2>
                         <h5>Available Courses: <br></br>
-                            <li><a href="{{url ('AlgoProg')}}" style="color:rgb(245, 245, 245);">Algorithm and Programming Basics</a></li>
+                            <li><a href="{{url ('courses/1')}}" style="color:rgb(245, 245, 245);">Algorithm and Programming Basics</a></li>
                             <li><a href="{{url ('UI')}}" style="color:rgb(245, 245, 245);">Introduction to UI/UX Design</a></li>
                         </h5>
                     </div>

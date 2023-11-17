@@ -13,16 +13,16 @@
                             {{--<span class="course-badge best-seller">Best seller</span>--}}
                             <?php
                             for($i = 1; $i < 6; $i++):?>
-                            <?php if ($i <= 5): ?>
+                            <?php if ($i <= 0): ?>
                             <i class="fas fa-star filled" style="color: #f5c85b;"></i>
                             <?php else: ?>
                             <i class="fas fa-star"></i>
                             <?php endif; ?>
                             <?php endfor; ?>
-                            <span class="d-inline-block average-rating"><?php echo 5; ?></span>
-                            <span>(20 ratings)</span>
+                            <span class="d-inline-block average-rating"><?php echo 0; ?></span>
+                            <span>(0 ratings)</span>
                             <span class="enrolled-num">
-                                100 students enrolled
+                                10 students enrolled
                             </span>
                         </div>
                         <div class="created-row">
@@ -59,24 +59,27 @@
                     <br>
                     <div class="course-curriculum-box">
                         <div class="course-curriculum-title clearfix">
-                            <div class="title float-left">Lessons for this course</div>
-                            <div class="float-right">
+                            <!-- <div class="title float-left">Course Overview</div> -->
+                            <!-- <div class="float-right">
                                 <span class="total-lectures">
                                     {{ $course->lessons->count() }} lessons
                                 </span>
                                 <span class="total-time">
                                     2 hours
                                 </span>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="course-curriculum-accordion">
 
                             <div class="lecture-group-wrapper">
-                                <div class="lecture-group-title clearfix" data-toggle="collapse"
-                                     data-target="#collapse"
+                                <div class="enter-button"
                                      aria-expanded="false">
                                     <div class="title float-left">
-                                        Lessons
+                                        
+                                        <!-- Button with Blade syntax and route link -->
+                                        <a href="{{ route('home') }}">
+                                            <button type="button" class="btn btn-primary">Go to Course</button>
+                                        </a>
                                     </div>
                                     <div class="float-right">
                                         <span class="total-lectures">
@@ -87,18 +90,19 @@
                                         </span>
                                     </div>
                                 </div>
+                                <br>
 
-                                <div id="collapse" class="lecture-list collapse">
+                                <!-- <div id="collapse" class="lecture-list collapse">
                                     <ul>
                                         @foreach($course->lessons as $lesson)
                                             <li class="lecture has-preview">
                                                 <span class="lecture-title">{{ $lesson->title }}</span>
                                                 <span class="lecture-time float-right">{{ $lesson->duration }}</span>
-                                                <!-- <span class="lecture-preview float-right" data-toggle="modal" data-target="#CoursePreviewModal">Preview</span> -->
+                                                <span class="lecture-preview float-right" data-toggle="modal" data-target="#CoursePreviewModal">Preview</span>
                                             </li>
                                         @endforeach
                                     </ul>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -132,7 +136,7 @@
                         </div>
                     </div>
 
-                    <div class="about-instructor-box">
+                    <!-- <div class="about-instructor-box">
                         <div class="about-instructor-title">
                             About the instructor
                         </div>
@@ -141,14 +145,14 @@
                                 <div class="about-instructor-image">
                                     <img src="" alt="" class="img-fluid">
                                     <ul>
-                                        <!-- <li><i class="fas fa-star"></i><b>4.4</b> Average Rating</li> -->
+                                        <li><i class="fas fa-star"></i><b>4.4</b> Average Rating</li>
                                         <li>
                                             <i class="fas fa-comment"></i><b>
-                                                100
+                                                0
                                             </b> reviews
                                         </li>
                                         <li><i class="fas fa-user"></i><b>
-                                                120
+                                                5
                                             </b> Students
                                         </li>
                                         <li>
@@ -175,7 +179,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div>  -->
 
                     <div class="student-feedback-box">
                         <div class="student-feedback-title">
@@ -324,9 +328,7 @@
                                     </li>
                                     <li><i class="far fa-compass"></i>Full lifetime access
                                     </li>
-                                    <li>
-                                        <i class="fas fa-mobile-alt"></i>Access on mobile and tv
-                                    </li>
+                                
                                 </ul>
                             </div>
                         </div>
