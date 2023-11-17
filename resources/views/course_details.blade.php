@@ -69,7 +69,7 @@
                                 </span>
                             </div>
                         </div>
-                        <div class="course-curriculum-accordion">
+                        <div href="algoprog" class="course-curriculum-accordion">
 
                             <div class="lecture-group-wrapper">
                                 <div class="lecture-group-title clearfix" data-toggle="collapse"
