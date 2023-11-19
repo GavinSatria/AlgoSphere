@@ -6,7 +6,6 @@ Route::get('/', 'HomeController@index')->name('home');
 Route::get('/about', 'HomeController@about')->name('about');
 Route::get('/social', 'HomeController@social')->name('social');
 Route::get('/terms', 'HomeController@terms')->name('terms');
-Route::get('/algoprog', 'HomeController@algoprog')->name('algoprog');
 
 Auth::routes();
 
@@ -14,6 +13,17 @@ Route::get('/auth/check', 'HomeController@checkAuth');
 
 // course
 Route::get('/insert', 'CourseController@insert')->name('insert');
+Route::get('/algo_intro', 'CourseController@algo_intro')->name('algo_intro');
+Route::get('/array', 'CourseController@array')->name('array');
+Route::get('/variable', 'CourseController@variable')->name('variable');
+Route::get('/conditional', 'CourseController@conditional')->name('conditional');
+Route::get('/loop', 'CourseController@loop')->name('loop');
+Route::get('/function', 'CourseController@function')->name('function');
+Route::get('/operator', 'CourseController@operator')->name('operator');
+Route::get('/algo_example', 'CourseController@algo_example')->name('algo_example');
+
+Route::get('/insert_ui', 'CourseController@insert_ui')->name('insert_ui');
+Route::get('/ui_intro', 'CourseController@ui_intro')->name('ui_intro');
 
 //Route::get('/home', 'HomeController@index')->name('home');
 Route::get('category/{category}/courses', 'HomeController@courses_by_category')->name('courses_by_category');

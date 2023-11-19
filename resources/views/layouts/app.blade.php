@@ -16,5 +16,8 @@
     @yield('content')
     @include('partials.footer')
     @include('partials.scripts')
+    <section id="content-container" class="content">
+        <!-- Content will be loaded here -->
+    </section>
 </body>
 </html>

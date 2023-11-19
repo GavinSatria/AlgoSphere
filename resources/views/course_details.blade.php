@@ -77,13 +77,13 @@
                                     <div class="title float-left">
                                         
                                         <!-- Button with Blade syntax and route link -->
-                                        <a href="{{ route('algoprog') }}">
+                                        <a href="{{ route('algo_intro') }}">
                                             <button type="button" class="btn btn-primary">Go to Course</button>
                                         </a>
                                     </div>
                                     <div class="float-right">
                                         <span class="total-lectures">
-                                            10 lessons
+                                            8 lessons
                                         </span>
                                     </div>
                                 </div>
@@ -128,7 +128,7 @@
                     <div class="compare-box view-more-parent">
                         <div class="compare-title">Other Related Courses</div>
                         <div class="compare-courses-wrap">
-                            UI/UX Design
+                            <a href="{{ route ('ui_intro')}}">UI/UX Design</a>
                         </div>
                     </div>
 

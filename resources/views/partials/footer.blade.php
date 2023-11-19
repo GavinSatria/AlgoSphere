@@ -4,12 +4,11 @@
             <div class="col-md-6">
                 <ul class="nav justify-content-md-end footer-menu">
                     <li class="nav-item">
-                        <a class="nav-link"
-                           href="{{url ('about')}}">About</a>
+                        <a class="nav-link">&copy; 2023 AlgoSphere</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link"
-                           href="{{url ('social')}}">Our Socials</a>
+                           href="{{url ('about')}}">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link"
