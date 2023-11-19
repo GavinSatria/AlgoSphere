@@ -3,6 +3,7 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+    height: 100%;
 }
 
 :-moz-selection {
@@ -20,6 +21,7 @@ body {
     padding-right: 0 !important;
     color: #29303b;
     font-size: 15px;
+    height: 100%;
 }
 
 body.white-bg {
@@ -191,7 +193,7 @@ input:focus {
 
 .menu-area {
     box-shadow: 0 0 1px 1px rgba(20, 23, 28, .1), 0 3px 1px 0 rgba(20, 23, 28, .1);
-    position: relative;
+    position: static;
     z-index: 99;
 }
 
@@ -4172,25 +4174,25 @@ section.purchase-history-list-area {
 .purchased a:focus {
     background: #003440;
 }
-<<<<<<< Updated upstream
-=======
 
 .sidenav {
-    height: 100%;
-    width: 160px;
+    height: 100vh;
+    width: 250px;
     position: fixed;
-    z-index: 1;
+    z-index: 100;
     top: 0;
+    bottom: 0;
     left: 0;
     background-color: #111;
     overflow-x: hidden;
     padding-top: 20px;
+    /* margin-top: 65.5px; */
   }
   
   .sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     color: #818181;
     display: block;
   }
@@ -4228,7 +4230,7 @@ section.purchase-history-list-area {
   }
   
   .main {
-    margin-left: 160px; /* Same as the width of the sidenav */
+    margin-left: 250px; /* Same as the width of the sidenav */
     font-size: 28px; /* Increased text to enable scrolling */
     padding: 0px 10px;
   }
@@ -4237,4 +4239,3 @@ section.purchase-history-list-area {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   }
->>>>>>> Stashed changes

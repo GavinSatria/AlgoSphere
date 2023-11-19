@@ -51,7 +51,7 @@
                 <div class="col-lg-8">
 
                     <div class="what-you-get-box">
-                        <div class="what-you-get-title">What i will learn?</div>
+                        <div class="what-you-get-title">What I will learn</div>
                         <ul class="what-you-get__items">
                             {{ $course->outcomes }}
                         </ul>
@@ -77,7 +77,7 @@
                                     <div class="title float-left">
                                         
                                         <!-- Button with Blade syntax and route link -->
-                                        <a href="{{ route('home') }}">
+                                        <a href="{{ route('algoprog') }}">
                                             <button type="button" class="btn btn-primary">Go to Course</button>
                                         </a>
                                     </div>

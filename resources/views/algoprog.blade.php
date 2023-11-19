@@ -3,10 +3,16 @@
 @section('content')
 <div id="sidenav_algo" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="#about">About</a>
-  <a href="#services">Services</a>
-  <a href="#clients">Clients</a>
-  <a href="#contact">Contact</a>
+  <a href="#intro">Introduction</a>
+  <a href="#C-standard"> C Standard Library</a>
+  <a href="#variables">Variables and Data Types</a>
+  <a href="#operators">Operators</a>
+  <a href="#conditional">Conditional Statements</a>
+  <a href="#loop">Looping Statements</a>
+  <a href="#array">Arrays</a>
+  <a href="#function">Functions</a>
+  <a href="#recursion">Recursion</a>
+  <a href="#examples">Examples</a>
 </div>
 
 <button class="open-button" onclick="openNav()">Lessons</button>

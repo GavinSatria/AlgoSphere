@@ -30,6 +30,11 @@ class HomeController extends Controller
         return view('social');
     }
 
+    public function algoprog()
+    {
+        return view('algoprog');
+    }
+
     // courses by category
     public function courses_by_category(Category $category)
     {
