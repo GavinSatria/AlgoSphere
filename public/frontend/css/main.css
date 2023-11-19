@@ -4234,7 +4234,15 @@ section.purchase-history-list-area {
     font-size: 28px; /* Increased text to enable scrolling */
     padding: 0px 10px;
   }
+
+  .main h3{
+    color:black; text-align:left; padding-left: 170px; padding-right: 170px;
+  }
   
+  .main p {
+    color:black; text-align:left; padding-left: 170px; padding-right: 170px;
+}
+
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
