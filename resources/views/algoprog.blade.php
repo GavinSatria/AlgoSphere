@@ -2,6 +2,7 @@
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <a href="{{route ('algo_intro')}}">Introduction</a>
   <a href="{{route ('variable')}}">Variables and Data Types</a>
+  <a href="{{route ('input')}}">Input and Output</a>
   <a href="{{route ('operator')}}">Operators</a>
   <a href="{{route ('conditional')}}">Conditional Statements</a>
   <a href="{{route ('loop')}}">Looping Statements</a>

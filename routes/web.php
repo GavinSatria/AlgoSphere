@@ -14,6 +14,7 @@ Route::get('/auth/check', 'HomeController@checkAuth');
 // course
 Route::get('/insert', 'CourseController@insert')->name('insert');
 Route::get('/algo_intro', 'CourseController@algo_intro')->name('algo_intro');
+Route::get('/input', 'CourseController@input')->name('input');
 Route::get('/array', 'CourseController@array')->name('array');
 Route::get('/variable', 'CourseController@variable')->name('variable');
 Route::get('/conditional', 'CourseController@conditional')->name('conditional');

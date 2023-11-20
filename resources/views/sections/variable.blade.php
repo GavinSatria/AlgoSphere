@@ -3,7 +3,6 @@
 @include('algoprog')
 <div id="main" class="main">
     <h3><b>Variables and Data Types in C Programming Language</b></h3>
-    <br>
     <p>Variables are named storage locations usually determined by the user to store and manipulate data locally. 
     <p>Variables have to be declared first. Variable declaration depends on its data type. Commonly used data types include: int (integers) float (decimal numbers), char (characters).</p>
     <p>For example: 'int age;' declares an integer variable named age.</p>
