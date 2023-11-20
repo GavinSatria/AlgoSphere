@@ -4243,6 +4243,10 @@ section.purchase-history-list-area {
     color:black; text-align:left; padding-left: 170px; padding-right: 170px; 
     font-size: large;
 }
+.main li{
+    color:black; text-align:left; padding-left: 170px; padding-right: 170px; 
+    font-size: large;
+}
 
 .main figcaption {
     color:black;

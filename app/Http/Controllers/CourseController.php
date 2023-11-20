@@ -75,6 +75,10 @@ class CourseController extends Controller
     {
         return view ('/sections/algo_example');
     }
+    public function input()
+    {
+        return view ('/sections/input');
+    }
 
     public function ui_intro()
     {
