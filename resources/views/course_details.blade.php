@@ -77,9 +77,16 @@
                                     <div class="title float-left">
                                         
                                         <!-- Button with Blade syntax and route link -->
+                                        @if($course->id == 1)
                                         <a href="{{ route('algo_intro') }}">
                                             <button type="button" class="btn btn-primary">Go to Course</button>
                                         </a>
+                                        @endif
+                                        @if($course->id == 2)
+                                        <a href="{{ route('ui_intro') }}">
+                                            <button type="button" class="btn btn-primary">Go to Course</button>
+                                        </a>
+                                        @endif
                                     </div>
                                     <div class="float-right">
                                         <span class="total-lectures">

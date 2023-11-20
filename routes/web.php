@@ -25,6 +25,9 @@ Route::get('/algo_example', 'CourseController@algo_example')->name('algo_example
 
 Route::get('/insert_ui', 'CourseController@insert_ui')->name('insert_ui');
 Route::get('/ui_intro', 'CourseController@ui_intro')->name('ui_intro');
+Route::get('/figma', 'CourseController@figma')->name('figma');
+Route::get('/design', 'CourseController@design')->name('design');
+Route::get('/prototype', 'CourseController@prototype')->name('prototype');
 
 //Route::get('/home', 'HomeController@index')->name('home');
 Route::get('category/{category}/courses', 'HomeController@courses_by_category')->name('courses_by_category');
