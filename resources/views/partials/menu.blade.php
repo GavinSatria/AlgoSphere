@@ -31,6 +31,12 @@
                         <span>Algorithm & Programming</span>
                     </a>
                 </li>
+                <li>
+                    <a href="{{ url ('courses/2') }}">
+                        <span class="icon"><i class="fa fa-caret-right"></i></span>
+                        <span>UI/UX Design</span>
+                    </a>
+                </li>
             </ul>
         </li>
 
