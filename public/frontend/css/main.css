@@ -4240,7 +4240,13 @@ section.purchase-history-list-area {
   }
   
   .main p {
-    color:black; text-align:left; padding-left: 170px; padding-right: 170px;
+    color:black; text-align:left; padding-left: 170px; padding-right: 170px; 
+    font-size: large;
+}
+
+.main figcaption {
+    color:black;
+    font-size: large;
 }
 
   @media screen and (max-height: 450px) {
