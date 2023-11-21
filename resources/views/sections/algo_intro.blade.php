@@ -35,11 +35,11 @@
       which includes decision points (conditional statements) and looping. 
       it can also be used to helps us designing our user interface as it can outine the navigation and interaction pathways of our intended user.</p>
       <div style="width: 500px; margin: 0 auto;">
-        <object data="{{ asset('/images/flowchart symbols.jpeg') }}" width="350" height="400" style="display: block; margin: 0 auto;"></object>
+        <object data="{{ asset('/images/flowchart symbols.jpeg') }}" width="100%" height="100%" style="display: block; margin: 0 auto;"></object>
         <figcaption style ="text-align: center;">Flowchart symbols.</figcaption>
       </div><br>
       <div style="width: 500px; margin: 0 auto;">
-        <object data="{{ asset('/images/Flowchart example.jpeg') }}" width="350" height="400" style="display: block; margin: 0 auto;"></object>
+        <object data="{{ asset('/images/Flowchart example.jpeg') }}" width="100%" height="100%" style="display: block; margin: 0 auto;"></object>
         <figcaption style ="text-align: center;">Flowchart example.</figcaption>
       </div>
 
@@ -50,11 +50,11 @@
       C is also supported by a large number of libraries and is close to low-level machine language yet it is still easy to understand.<br>
       </p>
     <div style="width: 500px; margin: 0 auto;">
-      <object data="{{ asset('/images/standard library.png') }}" width="500" height="300" style="display: block; margin: 0 auto;"></object>
+      <object data="{{ asset('/images/standard library.png') }}" width="100%" height="100%" style="display: block; margin: 0 auto;"></object>
       <figcaption style ="text-align: center;">Frequently used C library.</figcaption>
     </div><br>
     <div style="width: 500px; margin: 0 auto;">
-      <object data="{{ asset('/images/C structure.png') }}" width="300" height="200" style="display: block; margin: 0 auto;"></object>
+      <object data="{{ asset('/images/C structure.png') }}" width="100%" height="100%" style="display: block; margin: 0 auto;"></object>
       <figcaption style ="text-align: center;">Standard C structure.</figcaption>
     </div><br>
     <p>
@@ -62,7 +62,7 @@
       Every line must have a semicolon sign at the end of each statement and the program must always return 0 at the end of the program.
       you can also use "#" at the begining of the statement to comment it meaning the statement would not be processed by the program.</p>
     <br><div style="width: 500px; margin: 0 auto;">
-      <object data="{{ asset('/images/comment line.png') }}" width="300" height="200" style="display: block; margin: 0 auto;"></object>
+      <object data="{{ asset('/images/comment line.png') }}" width="100%" height="100%" style="display: block; margin: 0 auto;"></object>
       <figcaption style ="text-align: center;">Comment line example.</figcaption>
     </div>
 </div>

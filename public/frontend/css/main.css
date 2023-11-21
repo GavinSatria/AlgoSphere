@@ -4257,3 +4257,14 @@ section.purchase-history-list-area {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   }
+
+  .column {
+    float: left;
+    padding: 60px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    clear: both;
+    display: table;
+  }
