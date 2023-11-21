@@ -135,7 +135,12 @@
                     <div class="compare-box view-more-parent">
                         <div class="compare-title">Other Related Courses</div>
                         <div class="compare-courses-wrap">
-                            <a href="{{ route ('ui_intro')}}">UI/UX Design</a>
+                            @if($course->id == 1)
+                            <a href="{{ url ('courses/2')}}">UI/UX Design</a>
+                            @endif
+                            @if($course->id==2)
+                            <a href="{{ url ('courses/1')}}">Algorithm and Programming</a>
+                            @endif
                         </div>
                     </div>
 
